@@ -1,0 +1,24 @@
+.dropdown{
+    width: 58px;
+    height: 28px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 20px;
+    background: rgba(29, 29, 31, 0.08);
+}
+
+.item-container{
+    width: '312px'; 
+    height: '28px';
+    gap: "8px";
+}
+
+.input-container{
+    gap: '4px';
+}
+
+.search-input{
+    width: "166px";
+}
