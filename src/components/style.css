@@ -1,8 +1,8 @@
 .dropdown{
     width: 58px;
     height: 28px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
 }
 
 .vertical-line {
