@@ -33,14 +33,14 @@ function Searchbar() {
     }
 
     return (
-        <div class="inline-flex px-2 py-1 items-center gap-12 rounded-full bg-white shadow-md" >
+        <div class="inline-flex  items-center gap-12 rounded-full bg-white shadow-md" style={{padding: "8px"}}>
             <div class="inline-flex items-center" style={{ width: '312px', height: '28px', gap: "8px" }}>
 
                 <Flag />
 
                 <div style={{ gap: '8px', fontSize: "12px" , lineHeight: "20px" }} class="inline-flex items-center">
                     <select onChange={handleDropdownChange} 
-                    className=" dropdown h-20 text-[#86868B] font-inter text-xs font-normal focus:outline-none truncate border-none pb-0 !important">
+                    className=" dropdown h-20 text-[#86868B] font-inter  font-normal focus:outline-none truncate border-none pb-0 !important">
                         <optgroup label="Options">
                             <option value="Toll-free">Toll Free</option>
                             <option value="City">City</option>
@@ -51,7 +51,7 @@ function Searchbar() {
                     <div className="vertical-line"></div>
 
                     <input onInput={handleInputChange} type="text" style={{ width: "166px", fontSize: "12px" , lineHeight: "20px" }}
-                        className="text-[#86868B] focus:text-[#1D1D1F] font-inter text-xs focus:outline-none font-normal leading-5 tracking-tighter"
+                        className="text-[#86868B] focus:text-[#1D1D1F] font-inter  focus:outline-none font-normal leading-5 tracking-tighter input-container"
                         placeholder={`search by ${selectedOption()}`} />
                 </div>
 

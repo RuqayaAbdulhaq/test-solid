@@ -1,6 +1,8 @@
 .dropdown{
     width: 58px;
     height: 28px;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .vertical-line {
@@ -16,7 +18,8 @@
 }
 
 .input-container{
-    gap: '4px';
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .search-input{
