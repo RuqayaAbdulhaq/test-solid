@@ -38,7 +38,7 @@ function Searchbar() {
 
                 <Flag />
 
-                <div style={{ gap: '8px', fontSize: "12px" , lineHeight: "20px" }} class="inline-flex items-center">
+                <div style={{ gap: '8px', fontSize: "0.75rem" , lineHeight: "1.25rem" }} class="inline-flex items-center">
                     <select onChange={handleDropdownChange} 
                     className=" dropdown h-20 text-[#86868B] font-inter  font-normal focus:outline-none truncate border-none pb-0 !important">
                         <optgroup label="Options">
@@ -50,7 +50,7 @@ function Searchbar() {
 
                     <div className="vertical-line"></div>
 
-                    <input onInput={handleInputChange} type="text" style={{ width: "166px", fontSize: "12px" , lineHeight: "20px" }}
+                    <input onInput={handleInputChange} type="text" style={{ width: "166px", fontSize: "0.75rem" , lineHeight: "1.25rem" }}
                         className="text-[#86868B] focus:text-[#1D1D1F] font-inter  focus:outline-none font-normal leading-5 tracking-tighter input-container"
                         placeholder={`search by ${selectedOption()}`} />
                 </div>
